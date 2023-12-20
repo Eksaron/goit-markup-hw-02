@@ -1,22 +1,14 @@
-* {
-    margin: 0;
+body {
+    font-family: 'Roboto', 'Raleway';
+    background-color: #FFFFFF;
+    color: #434455;
+    text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
 
-
-/* #region:Section.#2.Team */
-.team {}
-
-.team-header {}
-
-.team-items {}
-
-.team-item {}
-
-.team-item-img {}
-
-.team-item-header {}
-
-.team-item-text {}
-
-/* #endregion:Section.#2.Team */
+ul {
+    list-style: none;
+}
