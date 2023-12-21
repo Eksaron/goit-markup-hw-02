@@ -13,6 +13,19 @@ ul {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .header-logo {
     color: #4D5AE5;
@@ -78,4 +91,24 @@ ul {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+}
+
+.target-list {}
+
+.target-item {}
+
+.target-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.target-item-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
