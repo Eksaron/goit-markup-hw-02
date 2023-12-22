@@ -58,7 +58,6 @@ ul {
 
 .header-contacts-item {
     color: #434455;
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -130,11 +129,17 @@ ul {
 
 .team-item {}
 
-.team-img {}
+.team-img {
+    display: inline-flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
 
 .team-subtitle {
     color: #2E2F42;
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -143,9 +148,51 @@ ul {
 
 .team-text {
     color: #434455;
-    text-align: center;
     font-size: 16px;
-    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.portfolio {}
+
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.portfolio-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
