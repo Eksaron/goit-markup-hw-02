@@ -161,7 +161,17 @@ ul {
 
 .team {}
 
-.ream-title {
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -200,7 +210,9 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.portfolio {}
+.portfolio {
+    background-color: #F4F4FD;
+}
 
 .portfolio-title {
     color: #2E2F42;
