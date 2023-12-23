@@ -90,7 +90,7 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -108,6 +108,11 @@ ul {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+}
+
+.form-button:hover,
+.form-button:focus {
+    background-color: #404BBF
 }
 
 .target-list {}
@@ -148,7 +153,7 @@ ul {
 
 .team-img {
     /* display: inline-flex; */
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     /* flex-direction: column; */
     justify-content: center;
     /* align-items: center; */
