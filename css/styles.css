@@ -159,14 +159,16 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .section-title {
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -183,7 +185,9 @@ ul {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF
+}
 
 .team-img {
     /* display: inline-flex; */
@@ -210,9 +214,7 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.portfolio {
-    background-color: #F4F4FD;
-}
+.portfolio {}
 
 .portfolio-title {
     color: #2E2F42;
