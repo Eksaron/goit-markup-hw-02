@@ -15,15 +15,9 @@ ul {
     list-style: none;
 }
 
-.header {
-    display: flex;
-}
+.header {}
 
-.header-navigation {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
+.header-navigation {}
 
 .header-logo {
     color: #4D5AE5;
@@ -45,10 +39,7 @@ ul {
     text-transform: uppercase;
 }
 
-.header-menu-list {
-    display: flex;
-    gap: 40px;
-}
+.header-menu-list {}
 
 .header-menu-link {
     color: #2E2F42;
